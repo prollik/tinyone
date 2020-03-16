@@ -1,0 +1,228 @@
+/*спецификация*/
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.header{
+    background-color: #fcdb00;
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 105px;
+}
+
+ul, li{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    margin-top: 8px;
+}
+
+.menu__item{
+    margin: 0 57px;
+}
+
+.menu__item a{
+    font-size: 22px;
+    font-weight: 700;
+    color:black ;
+}
+
+h1, h2, h3, h4, h5{
+    font-weight: 700;
+    color: black;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    font-weight: 400;
+}
+
+.offer{
+    margin-top: 117px;
+}
+
+.offer__title{
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.offer__intro{
+    font-size: 20px;
+    line-height: 1.3em;
+}
+
+.offer__text{
+    width: 400px;
+    font-size: 16px;
+    color: #555555;
+    margin-top: 15px;
+}
+
+.icons__item{
+    margin-right: 30px;
+}
+
+.icons__item a{
+    color: black;
+    font-size: 42px;
+    transition: all 0.3s ease;
+}
+
+.icons__item a:hover{
+    color: #ba8b00;
+    text-decoration: none;
+}
+
+p, div a span{
+    line-height: 1.3em;
+    margin-top: 20px;
+
+}
+
+.ipad{
+    display: block;
+    margin: 60px auto;
+}
+
+/*2 экран*/
+.tittle{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.title__main{
+    font-size: 32px;
+}
+
+.title__text{
+    font-size: 20px;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.feature{
+    margin-bottom: 65px;
+}
+
+.feature__icon{
+    font-size: 50px;
+    margin-right: 37px;
+}
+
+.feature__text{
+    color: #6c757d;
+}
+
+/*3 экран*/
+.touch{
+    background-color: black;
+    color: white;
+}
+
+.yellow{
+    color: yellow;
+}
+.form {
+    text-align: center;
+}
+
+.form__input{
+    background: white;
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+    border-radius: 5px;
+    padding: 15px 0;
+    width: 580px;
+    padding-left: 23px;
+    margin-right: 23px;
+    outline: none;
+}
+
+.form__btn{
+    background: #fcdb00;
+    color: black;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    width: 126px;
+    padding: 15px 0;
+    cursor: pointer;
+}
+
+/*Футер*/
+
+.footer {
+    background: #000;
+    padding:50px 0 94px;
+}
+
+.credits {
+    color: #fff;
+    font-size: 16px;
+    width: 184px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/*Медиазапросы*/
+@media screen and (max-width: 992px) {
+    .logo{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .offer {
+        text-align: center;
+    }
+    .offer__text {
+        margin: 20px auto;
+        width: auto;
+    }
+    .icons {
+        justify-content: center;
+    }
+
+    .icons__item:nth-child(3){
+        margin-right: 0;
+    }
+
+    .form__input{
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .form__btn{
+        margin-top: 10px;
+        width: 100%;
+    }
+    .title__text {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .ipad{
+        width: 100%;
+    }
+
+    .menu{
+        flex-direction: column;
+    }
+
+    .menu__item {
+        text-align: center;
+        margin-bottom:10px;
+    }
+
+}
+
